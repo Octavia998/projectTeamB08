@@ -1,0 +1,118 @@
+/* Untuk Tablet */
+@media (max-width: 1000px) {
+  .header-right {
+    display: none;
+  }
+
+  .top-wrapper {
+    height: 500px;
+  }
+  
+  .top-text {
+  position: relative;
+  top: 50px;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  
+  .top-wrapper p {
+    font-size: 24px;
+  }
+
+  .profile {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .txt-contents {
+    height: 90%;
+  }
+
+  .quotes h2 {
+    font-size: 20px;
+  }
+
+  .quotes h3 {
+    padding-top: 10px;
+    font-size: 18px;
+  }
+
+  input, textarea {
+    width: 90%;
+  }
+
+  .footer {
+    padding: 20px 40px 0 40px;
+  }
+
+  .footer img {
+    width: 50%;
+  }
+
+  .footer li {
+    font-size: 14px;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .header-right {
+    display: none;
+  }
+
+  .top-wrapper {
+    text-align: left;
+    height: 400px;
+  }
+  
+  .top-text {
+  position: relative;
+  top: 50px;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 27px;
+    line-height: 36px;
+  }
+  
+  .top-wrapper p {
+    font-size: 12px;
+  }
+
+  .profile {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .txt-contents {
+    height: 90%;
+  }
+
+  .quotes h2 {
+    font-size: 16px;
+  }
+
+  .quotes h3 {
+    padding-top: 10px;
+    font-size: 14px;
+  }
+
+  input, textarea {
+    width: 90%;
+  }
+
+  .footer {
+    padding: 20px 20px 0 20px;
+  }
+
+  .footer img {
+    width: 40%;
+  }
+
+  .footer li {
+    font-size: 14px;
+  }
+}
